@@ -15,4 +15,10 @@
     <string name="video">Video</string>
     <string name="web">Web</string>
     <string name="botton">Botones</string>
+    <!--   Pantalla profile -->
+    <string name="titleloprofile">Kung Fu Panda 4</string>
+    <string name="duration">2024 ‧ Comedia/Aventura ‧ 1h 34m</string>
+    <string name="textperfil">Po está entrenando a un nuevo guerrero que ocupe su lugar para que él pueda convertirse en líder espiritual del Valle de la Paz. Sin embargo, la irrupción de una malvada hechicera que puede cambiar de apariencia trastoca sus planes.</string>
+<!-- lista de imagenes de peliculas-->
+    <string name="poster_description">description.....</string>
 </resources>
