@@ -73,15 +73,16 @@ class WebFragment : Fragment() {
             }
         }
 
-        binding.buttonSearch.setOnClickListener {
+        binding.buttonSearch.setOnClickListener {view->
 
-            var urlsearch= binding.editTextUrl.text
-            if(urlsearch.isNullOrBlank()||urlsearch.isNullOrEmpty())
-                 webView.loadUrl(urlsearch.toString())
-            else
-                Snackbar.make(this.rootView, "Ejemplo de botton llamando un toast", Snackbar.LENGTH_LONG)
+            var urlsearch= binding.editTextUrl.text.toString()
+            if(!urlsearch.isNullOrBlank()&&!urlsearch.isNullOrEmpty()) {
+                webView.loadUrl("https://"+urlsearch)
+            }else
+                Snackbar.make(view, "la url no puede estar vacia", Snackbar.LENGTH_LONG)
                     .setAction("Action", null)
                     .setAnchorView(R.id.fab).show()
         }
+
     }
 }

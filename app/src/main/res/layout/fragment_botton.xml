@@ -1,13 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.botton.BottonFragment">
+    android:orientation="vertical"
+    tools:context=".ui.botton.BottonFragment"
+    android:gravity="center"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haz clic en cada numero para acumular y mostar por pantalla"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="2dp"
+        >
+
+        <TableRow   android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/n1k_24"
+                android:layout_margin="10dp"/>
+
+            <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/n2k_24"
+                android:layout_margin="10dp"/>
+
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/n3k_24"
+                android:layout_margin="10dp"/>
+
+        </TableRow>
+
+        <TableRow android:padding="10dp" >
+
+            <ImageButton
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/n4k_24"
+                android:layout_margin="10dp"/>
+
+            <ImageButton
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/n5k_24"
+                android:layout_margin="10dp"/>
+
+            <ImageButton
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/n6k_24"
+                android:layout_margin="10dp"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
 
     <TextView
-        android:id="@+id/text_gallery"
+        android:id="@+id/text_botton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -18,5 +94,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toTopOf="parent"  android:visibility="invisible" />
+</LinearLayout >
