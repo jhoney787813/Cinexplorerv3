@@ -21,16 +21,32 @@
         android:name="com.example.cinexplorerv2gradle.ui.photo.PhotoFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_photo" />
+    <fragment
+        android:id="@+id/video"
+        android:name="com.example.cinexplorerv2gradle.ui.video.VideoFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_video" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.cinexplorerv2gradle.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/web"
+        android:name="com.example.cinexplorerv2gradle.ui.web.WebFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_web" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.cinexplorerv2gradle.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/botton"
+        android:name="com.example.cinexplorerv2gradle.ui.botton.BottonFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_botton" />
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.example.cinexplorerv2gradle.ui.gallery.GalleryFragment"-->
+<!--        android:label="@string/menu_gallery"-->
+<!--        tools:layout="@layout/fragment_gallery" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.example.cinexplorerv2gradle.ui.slideshow.SlideshowFragment"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_slideshow" />-->
 </navigation>
