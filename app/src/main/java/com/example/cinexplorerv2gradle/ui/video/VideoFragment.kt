@@ -60,7 +60,7 @@ class VideoFragment : Fragment() {
         buttonPlayPause = binding.buttonPlayPause
         buttonStop = binding.buttonStop
 
-        val videoPath = "android.resource://" + context.packageName + "/" + R.raw.video1
+        val videoPath = "android.resource://" + context.packageName + "/" + R.raw.video2
         val videoUri = Uri.parse(videoPath)
         videoView.setVideoURI(videoUri)
         val mediaController = MediaController(context)
@@ -72,12 +72,14 @@ class VideoFragment : Fragment() {
                 videoView.pause()
                 buttonPlayPause.setImageResource(R.drawable.play)
             } else {
+                videoView.resume()
                 videoView.start()
                 buttonPlayPause.setImageResource(R.drawable.playpause)
             }
         }
         buttonStop.setOnClickListener {
             videoView.stopPlayback()
+
             buttonPlayPause.setImageResource(R.drawable.play)
         }
     }
