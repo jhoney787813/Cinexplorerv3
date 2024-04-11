@@ -6,8 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".ui.photo.PhotoFragment">
 
+
+    <ListView
+        android:id="@+id/listViewMovies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
     <TextView
-        android:id="@+id/text_gallery"
+        android:id="@+id/text_photo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -18,5 +24,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" android:visibility="invisible" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="horizontal"
     android:padding="16dp">
 
@@ -9,18 +9,29 @@
         android:id="@+id/imageViewPoster"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/default_poster_100"
+        android:src="@drawable/download_24"
         android:scaleType="centerCrop"
         android:contentDescription="@string/poster_description"/>
 
     <TextView
         android:id="@+id/textViewTitle"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="90dp"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:text="Title"/>
+        android:text="[Title]"/>
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_below="@id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="90dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="[]"/>
+
+</RelativeLayout>
