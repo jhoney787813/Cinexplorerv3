@@ -30,8 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_marginStart="90dp"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:text="[]"/>
+        android:textSize="12sp"
+        android:text=""/>
 
 </RelativeLayout>

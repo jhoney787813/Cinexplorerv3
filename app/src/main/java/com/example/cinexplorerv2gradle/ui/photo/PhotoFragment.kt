@@ -42,9 +42,13 @@ class PhotoFragment : Fragment() {
 
         val listViewMovies: ListView = binding.listViewMovies
         val movies = arrayOf(
-            Movie("Movie 1", "Description 1",R.drawable.web),
-            Movie("Movie 2", "Description 2",R.drawable.button),
-            Movie("Movie 3", "Description 3",R.drawable.explorer2)
+            Movie("Shōgun (2024)", "Ambientada en el Japón de 1600, lord Yoshii Toranaga lucha por su vida mientras que sus enemigos en el Consejo de regentes se alían contra él cuando un misterioso barco europeo aparece abandonado cerca de un pueblo pesquero.",R.drawable.shogun),
+            Movie("Kung Fu Panda 4 (2024)", "Po se prepara para ser el líder espiritual del Valle de la Paz, buscando un sucesor como Guerrero Dragón. ",R.drawable.kfp4),
+            Movie("Fallout (2024)", "Basado en una de las sagas de videojuegos más importantes de todos los tiempos, Fallout es la historia de los que tienen y de los que no tienen en un mundo en el que prácticamente no queda nada para tener.",R.drawable.fallout),
+            Movie("Dune: Parte dos (2024)", "Sigue el viaje mítico de Paul Atreides mientras se une a Chani y los Fremen en una guerra de venganza contra los conspiradores que destruyeron a su familia.",R.drawable.dunep2),
+            Movie("Padre made in USA (2005)", "Padre made in USA, es una serie de televisión de animación para adolescentes y adultos del creador de Padre de familia, Seth MacFarlane.",R.drawable.padre),
+            Movie("Supervixens (1975)", "Clint trabaja en una gasolinera y tiene un irresistible atractivo para las mujeres. ",R.drawable.superv),
+            Movie("Chicas malas (2004)", "Una joven adolescente, Cady, acostumbrada a vivir en África con sus padres, zoólogos, se encuentra una nueva jungla cuando se muda a Illinois.",R.drawable.chicasmalas),
             // Agrega más películas según sea necesario
         )
 
