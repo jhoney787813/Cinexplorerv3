@@ -50,6 +50,7 @@ class PhotoFragment : Fragment() {
             Movie("Supervixens (1975)", "Clint trabaja en una gasolinera y tiene un irresistible atractivo para las mujeres. ",R.drawable.superv),
             Movie("Chicas malas (2004)", "Una joven adolescente, Cady, acostumbrada a vivir en África con sus padres, zoólogos, se encuentra una nueva jungla cuando se muda a Illinois.",R.drawable.chicasmalas),
             // Agrega más películas según sea necesario
+
         )
 
         // Adaptador personalizado para la lista de películas

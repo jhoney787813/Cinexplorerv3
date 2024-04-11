@@ -21,4 +21,36 @@
     <string name="textperfil">Po está entrenando a un nuevo guerrero que ocupe su lugar para que él pueda convertirse en líder espiritual del Valle de la Paz. Sin embargo, la irrupción de una malvada hechicera que puede cambiar de apariencia trastoca sus planes.</string>
 <!-- lista de imagenes de peliculas-->
     <string name="poster_description">description.....</string>
+    <!-- listado de peliculas-->
+
+    <string name="title1">Kung Fu Panda 4 (2024)</string>
+    <string name="description1">Po se prepara para ser el líder espiritual del Valle de la Paz, buscando un sucesor como Guerrero Dragón.</string>
+
+    <string name="title2">Shōgun (2024)</string>
+    <string name="description2">Ambientada en el Japón de 1600, lord Yoshii Toranaga lucha por su vida mientras que sus enemigos en el Consejo de regentes se alían contra él cuando un misterioso barco europeo aparece abandonado cerca de un pueblo pesquero.</string>
+
+    <string name="title3">Fallout (2024)</string>
+    <string name="description3">Basado en una de las sagas de videojuegos más importantes de todos los tiempos, Fallout es la historia de los que tienen y de los que no tienen en un mundo en el que prácticamente no queda nada para tener.</string>
+
+    <string name="title4">Dune: Parte dos (2024)</string>
+    <string name="description4">Sigue el viaje mítico de Paul Atreides mientras se une a Chani y los Fremen en una guerra de venganza contra los conspiradores que destruyeron a su familia.</string>
+
+    <string name="title5">Padre made in USA (2005)</string>
+    <string name="description5">Padre made in USA, es una serie de televisión de animación para adolescentes y adultos del creador de Padre de familia, Seth MacFarlane.</string>
+
+    <string name="p6">Supervixens (1975)</string>
+    <string name="d6">Clint trabaja en una gasolinera y tiene un irresistible atractivo para las mujeres.</string>
+
+    <string name="p7">Chicas malas (2004)</string>
+    <string name="d7">Una joven adolescente, Cady, acostumbrada a vivir en África con sus padres, zoólogos, se encuentra una nueva jungla cuando se muda a Illinois.</string>
+
+
+    Movie(, ,R.drawable.kfp4),
+    Movie("", "",R.drawable.fallout),
+    Movie("", "",R.drawable.dunep2),
+    Movie("", "",R.drawable.padre),
+    Movie("", " ",R.drawable.superv),
+    Movie("", "",R.drawable.chicasmalas),
+
+
 </resources>
