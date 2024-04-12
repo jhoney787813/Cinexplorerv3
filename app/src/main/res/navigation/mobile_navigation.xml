@@ -14,29 +14,29 @@
     <fragment
         android:id="@+id/profile"
         android:name="com.example.cinexplorerv2gradle.ui.profile.ProfileFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/photo"
         android:name="com.example.cinexplorerv2gradle.ui.photo.PhotoFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_photo"
         tools:layout="@layout/fragment_photo" />
     <fragment
         android:id="@+id/video"
         android:name="com.example.cinexplorerv2gradle.ui.video.VideoFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_video"
         tools:layout="@layout/fragment_video" />
 
     <fragment
         android:id="@+id/web"
         android:name="com.example.cinexplorerv2gradle.ui.web.WebFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_web"
         tools:layout="@layout/fragment_web" />
 
     <fragment
         android:id="@+id/botton"
         android:name="com.example.cinexplorerv2gradle.ui.botton.BottonFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_botton"
         tools:layout="@layout/fragment_botton" />
 <!--    <fragment-->
 <!--        android:id="@+id/nav_gallery"-->
